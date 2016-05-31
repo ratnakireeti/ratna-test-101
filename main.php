@@ -38,6 +38,7 @@
       echo "Opened database successfully\n";
    }
 
+   /*
    $sql =<<<EOF
       CREATE TABLE COMPANY
       (ID INT PRIMARY KEY     NOT NULL,
@@ -47,7 +48,7 @@
       SALARY         REAL);
 EOF;
 
-   $ret = pg_query($db, $sql);
+   //$ret = pg_query($db, $sql);
    if(!$ret){
       echo pg_last_error($db);
    } else {
@@ -68,13 +69,14 @@ EOF;
       VALUES (4, 'Mark', 25, 'Rich-Mond ', 65000.00 );
 EOF;
 
-   $ret1 = pg_query($db, $sql1);
+   //$ret1 = pg_query($db, $sql1);
    if(!$ret1){
       echo pg_last_error($db);
    } else {
       echo "Records created successfully\n";
    }
-
+*/
+   
 $sql2 =<<<EOF
       SELECT * from COMPANY;
 EOF;
