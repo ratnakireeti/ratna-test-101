@@ -1,4 +1,4 @@
 <?php
-    echo 'Hello Ratna Eluri!';
-    echo 'This is a test.'
+    echo 'Hello Ratna Kireeti Eluri! ';
+    echo 'This is another test.'
 ?>    
