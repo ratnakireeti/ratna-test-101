@@ -11,7 +11,12 @@
 	  console.log('Welcome Mr. ' + ln);
 	};
 
+	var notGreeting = function(ln){
+	  console.log('This is not a Welcome Mr. ' + ln);
+	};
+
 	fullName("Jackie", "Chan", greeting);
+	fullName("Ratna Kireeti", "Eluri", greeting);
 </script>
 </head>
 <body>
