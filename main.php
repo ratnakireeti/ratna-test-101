@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<scipt>
+<script>
 	function fullName(firstName, lastName, callback){
 	  console.log("My name is " + firstName + " " + lastName);
 	  callback(lastName);
