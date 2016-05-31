@@ -16,7 +16,7 @@
 	};
 
 	fullName("Jackie", "Chan", greeting);
-	fullName("Ratna Kireeti", "Eluri", greeting);
+	fullName("Ratna Kireeti", "Eluri", notGreeting);
 </script>
 </head>
 <body>
