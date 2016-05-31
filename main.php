@@ -26,6 +26,8 @@
     echo 'This is another test.'
 ?>  
 <?php
+   include("conn.php");
+   /*
    $host        = "host=ec2-23-21-235-126.compute-1.amazonaws.com";
    $port        = "port=5432";
    $dbname      = "dbname=da7tanlbmhlnus";
@@ -38,7 +40,6 @@
       echo "Opened database successfully\n";
    }
 
-   /*
    $sql =<<<EOF
       CREATE TABLE COMPANY
       (ID INT PRIMARY KEY     NOT NULL,
