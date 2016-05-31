@@ -17,6 +17,7 @@
 
 	fullName("Jackie", "Chan", greeting);
 	fullName("Ratna Kireeti", "Eluri", notGreeting);
+	fullName("Mahendra Singh", "Dhoni", function(ln){console.log('Welcome Mr. ' + ln);});
 </script>
 </head>
 <body>
