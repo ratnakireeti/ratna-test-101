@@ -16,7 +16,7 @@
 	};
 
 	fullName("Jackie", "Chan", greeting);
-	fullName("Ratna Kireeti", "Eluri", notGreeting);
+	fullName("Virat", "Kohli", notGreeting);
 	fullName("Mahendra Singh", "Dhoni", function(ln){console.log('Welcome Mr. ' + ln);});
 </script>
 </head>
@@ -76,7 +76,7 @@ EOF;
       echo "Records created successfully\n";
    }
 */
-   
+
 $sql2 =<<<EOF
       SELECT * from COMPANY;
 EOF;
